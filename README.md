@@ -1,7 +1,7 @@
 # OIDC Proxy —— 为你的 Cloudreve 加上彩虹聚合登录
 
 将[彩虹聚合登录](https://login.mapay.cn/)（QQ / 微信 / 支付宝）包装成标准 **OpenID Connect (OIDC)** 协议的中转服务，使支持 OIDC 的第三方应用（如 **Cloudreve**、**NextCloud**、**GitLab**、**Grafana** 等）能够接入国内社交平台登录。
-
+注此项目大部分为ai所作如有问题请提出
 ```
 第三方应用 <── OIDC ──> 本中转站 <── 彩虹 OAuth ──> QQ / 微信 / 支付宝
 ```
